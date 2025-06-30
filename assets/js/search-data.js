@@ -21,21 +21,21 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/Publications/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/Teaching/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/CV/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -420,7 +420,7 @@ ninja.data = [{
           title: 'Canopy Stomatal Conductance Estimation',
           description: "",
           section: "Research",handler: () => {
-              window.location.href = "/research/1_project/";
+              window.location.href = "/research/canopy_stomatal_conductance_estimation/";
             },},{
         id: 'social-email',
         title: 'email',
