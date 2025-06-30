@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Canopy Stomatal Conductance Estimation
-permalink: /Research/Canopy_Stomatal_Conductance_Estimation
 description: 
-img: assets/img/agwat25.jpg
+img: assets/img/12.jpg
 importance: 1
 category: Stomata
 related_publications: true
