@@ -182,8 +182,19 @@
       crossorigin="anonymous"
     >
   {% endif %}
+    <!-- Image slider -->
+  {% if page.images.slider %}
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.swiper.url.css }}"
+      integrity="{{ site.third_party_libraries.swiper.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
 {% endif %}
 
 {% if page.tikzjax %}
   <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

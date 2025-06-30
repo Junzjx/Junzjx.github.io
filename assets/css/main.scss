@@ -23,3 +23,9 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+swiper-container::part(pagination) {
+  margin-top: 12px;
+  bottom: 2px;
+}
+

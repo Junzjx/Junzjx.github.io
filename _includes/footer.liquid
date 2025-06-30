@@ -1,14 +1,13 @@
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
+  <div class="footer-line-1">
+    &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+    | Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+    with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio theme</a>
+  </div>
+  <div class="footer-line-2">
+    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+    · Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+  </div>
 {% endcapture %}
 
 {% if site.footer_fixed %}
@@ -24,7 +23,39 @@
     {% endif %}
 
     <div class="container">
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+      </div>
       {{ footer_contents }}
     </div>
   </footer>
 {% endif %}
+
+<style>
+  footer {
+    border-top: none !important;  /* 移除上边线 */
+    font-size: 1rem !important;
+    margin-top: 0rem;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  footer .social {
+    margin-top: 0rem;  /* 减少 icon 上方空隙 */
+    padding-top: 0;
+  }
+
+  footer .contact-icons a i {
+    font-size: 2.5rem;  /* 调整 icon 大小 */
+    color: #2e3a4d !important;
+  }
+
+  footer .contact-icons {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  footer .contact-icons a i::before {
+    color:--global-text-color !important;
+}
+</style>
