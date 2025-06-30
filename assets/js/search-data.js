@@ -14,28 +14,28 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Research/";
+            window.location.href = "/research/";
           },
         },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Teaching/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/CV/";
+            window.location.href = "/cv/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -416,7 +416,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "research-canopy-stomatal-conductance-estimation",
+          title: 'Canopy Stomatal Conductance Estimation',
+          description: "",
+          section: "Research",handler: () => {
+              window.location.href = "/research/1_project/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
