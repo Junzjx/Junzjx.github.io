@@ -14,7 +14,7 @@ nav_order: 4
 
 ---
 
-##### BSEN 460 Instrumentation & Controls <span align="right" style="float: right; font-weight: bold;">Autumn 2024</span>  
+##### BSEN 460 Instrumentation & Controls <span align="right" style="float: right; font-weight: bold;">Autumn 2024 & Autumn 2025</span>  
 *Taught by Dr. Yufeng Ge, University of Nebraska-Lincoln*
  * Delivered lectures and lab sessions, held office hours, and prepared lab setups.
  * Use Project-based learning to help students learn knowledge with real world challenges.
