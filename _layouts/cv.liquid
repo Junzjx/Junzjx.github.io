@@ -4,17 +4,14 @@ layout: default
 
 <style>
   :root {
-    /* 这里控制“吃掉左侧边栏”的宽度，自己可调 */
     --pdf-left-expand: 260px;
     --pdf-right-expand: 0px;
   }
 
-  /* 保持顶部区域原样，不改 post 宽度 */
   .post-header {
     margin-bottom: 1.5rem;
   }
 
-  /* 只让 PDF 这一块变宽 */
   .pdf-breakout {
     width: calc(100% + var(--pdf-left-expand) + var(--pdf-right-expand));
     margin-left: calc(-1 * var(--pdf-left-expand));
@@ -28,7 +25,10 @@ layout: default
     display: block;
   }
 
-  /* 手机上不要向左撑出去 */
+  .pdf-mobile-link {
+    display: none !important;
+  }
+
   @media (max-width: 992px) {
     .pdf-breakout {
       width: 100%;
@@ -37,7 +37,14 @@ layout: default
     }
 
     .pdf-frame {
-      height: 80vh;
+      display: none;
+    }
+
+    .pdf-mobile-link {
+      display: block !important;
+      width: 100%;
+      text-align: center;
+      margin-top: 2rem;
     }
   }
 </style>
@@ -56,7 +63,8 @@ layout: default
         src="{{ 'assets/pdf/Junxiao_Zhang_CV.pdf' | relative_url }}"
         title="Curriculum Vitae">
       </iframe>
-      <div class="pdf-mobile-link" style="display:flex; justify-content:center; align-items:center; margin-top:2rem;">
+
+      <div class="pdf-mobile-link" style=justify-content:center; align-items:center; margin-top:2rem;">
         <a
           href="{{ 'assets/pdf/Junxiao_Zhang_CV.pdf' | relative_url }}"
           target="_blank"
