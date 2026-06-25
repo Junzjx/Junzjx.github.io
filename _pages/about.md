@@ -38,7 +38,7 @@ latest_posts:
     </h5>
     
     <h5 style="text-indent: 0.7em; margin-bottom: 20px;">
-      I am a PhD student at the 
+      I am a PhD Candidate at the 
       <a href="https://www.unl.edu/">University of Nebraska-Lincoln</a>, 
       where I am conducting cutting-edge research in High-Throughput plant phenotyping, 
       particularly related to stomata, under the guidance of 
@@ -61,12 +61,12 @@ latest_posts:
 
   <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <div style="width: 48%;">
-      <h5 style="text-indent: 0.7em; margin-bottom: 15px;"><i class="fas fa-leaf" style="margin-right: 8px; color: #4aa3cf;"></i>High-Throughput Plant Phenotyping</h5>
-      <h5 style="text-indent: 0.7em; margin-bottom: 15px;"><i class="fas fa-images" style="margin-right: 8px; color: #4aa3cf;"></i>Image Processing</h5>
+      <h5 style="text-indent: 0.7em; margin-bottom: 15px;"><i class="fas fa-leaf" style="margin-right: 8px; color: #4aa3cf;"></i>Plant Phenotyping</h5>
+      <h5 style="text-indent: 0.7em; margin-bottom: 15px;"><i class="fas fa-microchip" style="margin-right: 8px; color: #4aa3cf;"></i>Sensing Technology</h5>
       <h5 style="text-indent: 0.7em; margin-bottom: 15px;"><i class="fas fa-eye" style="margin-right: 8px; color: #4aa3cf;"></i>Computer Vision</h5>
     </div>
     <div style="width: 48%;">
-      <h5 style="text-indent: 0.7em; margin-bottom: 15px;"><i class="fas fa-brain" style="margin-right: 8px; color: #4aa3cf;"></i>Machine / Deep Learning</h5>
+      <h5 style="text-indent: 0.7em; margin-bottom: 15px;"><i class="fas fa-brain" style="margin-right: 8px; color: #4aa3cf;"></i>Artificial Intelligence</h5>
       <h5 style="text-indent: 0.7em; margin-bottom: 15px;"><i class="fas fa-database" style="margin-right: 8px; color: #4aa3cf;"></i>Data Science</h5>
       <h5 style="text-indent: 0.7em; margin-bottom: 15px;"><i class="fas fa-seedling" style="margin-right: 8px; color: #4aa3cf;"></i>Crop Modeling</h5>
     </div>
@@ -128,5 +128,9 @@ latest_posts:
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pre4.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/pre1.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 </swiper-container>
+</div>
+
+<div style="display: none;" aria-hidden="true">
+  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=4a4e69&w=500&t=n&d=ofWHOp0j-_VLimCgs8e9WNKRp3JZ_J2KVmyw-0EiV6I&co=bbdefb&cmo=e07a5f&cmn=81b29a&ct=808080"></script>
 </div>
 
